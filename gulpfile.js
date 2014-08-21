@@ -29,6 +29,6 @@ gulp.task('bundle-scripts', function() {
         .on('error', gutil.log);
 });
 
-gulp.task('default', function () {
+gulp.task('default', ['bundle-scripts'], function () {
     gulp.watch(paths.scripts, ['bundle-scripts']);
 });

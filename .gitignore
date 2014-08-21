@@ -1,5 +1,5 @@
 node_modules/
-appbuild/
+appbuild/*.js
 
 #################
 ## Eclipse
