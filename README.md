@@ -1,10 +1,11 @@
 angular-template
 ================
 
-Starter template for angular project.
+Lightweight starter template for a angular project. Gulp is used to minify and concatinate all js-files into a single application js. This will be rebuilt on file change. This allows you to add new js-files without having to add new script-tags in your index file.
 
 Requirements: gulp
-npm install -g gulp
+
+`npm install -g gulp`
 
 Usage:
 
